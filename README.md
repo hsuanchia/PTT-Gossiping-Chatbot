@@ -14,7 +14,7 @@ A Chat bot that use training data from PTT Gossiping
 * Tokenize
   * Character based: 總共有4764個字(Q+A)
   * Word based: 總共有31565個詞(Q+A)
-  * Special token: <unk> <sos> <end> <pad>
+  * Special token: '<unk>' '<sos>' '<end>' '<pad>'
 * Padding
   * Word-based
     * Question pad 到 30 個詞(最長問題有30個詞)
@@ -29,10 +29,14 @@ A Chat bot that use training data from PTT Gossiping
 ![Chatbot_arch_char](https://user-images.githubusercontent.com/59002617/155271004-d1bfb20d-df8d-45e0-a777-f3d19e1a6ff4.png)
 ## Implement result
 * Word-based
+ 
 ![Word_based ex1](https://user-images.githubusercontent.com/59002617/155271277-72b4e6e9-759d-42e6-86c3-2a1fe1d9c019.png)
+ 
 ![Word_based ex2](https://user-images.githubusercontent.com/59002617/155271289-88ad5ff6-701b-4be9-bb2d-9d72596624d6.png)
 * Character-based
+ 
 ![not HTML](https://user-images.githubusercontent.com/59002617/155271344-763c5084-ca31-4942-98ac-f1ed2ec6c0ec.jpg)
+ 
 ![train_char_example2](https://user-images.githubusercontent.com/59002617/155271398-9e2cbe09-2fee-4d08-bd8f-55e03d540610.jpg)
 
   
