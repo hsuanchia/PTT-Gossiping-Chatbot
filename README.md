@@ -14,7 +14,7 @@ A Chat bot that use training data from PTT Gossiping
 * Tokenize
   * Character based: 總共有4764個字(Q+A)
   * Word based: 總共有31565個詞(Q+A)
-  * Special token: '<unk>' '<sos>' '<end>' '<pad>'
+  * Special token: unk sos end pad
 * Padding
   * Word-based
     * Question pad 到 30 個詞(最長問題有30個詞)
