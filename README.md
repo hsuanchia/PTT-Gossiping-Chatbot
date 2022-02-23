@@ -15,6 +15,7 @@ A Chat bot that use training data from PTT Gossiping
     3. 計算每一則推文出現的詞彙的權重和
     4. 取權重和最高的推文，權重一樣時取越早推文的
   * 最終處理完之後總計有48560筆問答
+* 斷詞: CKIP
 * Tokenize
   * Character based: 總共有4764個字(Q+A)
   * Word based: 總共有31565個詞(Q+A)
