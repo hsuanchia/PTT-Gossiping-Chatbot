@@ -1,8 +1,10 @@
 # PTT-Gossiping-Chatbot
 A Chat bot that use training data from PTT Gossiping
+
 :::info
 課堂上的專題，自己做來玩的小玩具，沒有商業利用，有緣人想看我醜醜的code就拿去用吧!
 :::
+
 ## Dataset
 2021 5月份 PTT-gossiping版上的問卦文章
 ## Data Preprocessing
