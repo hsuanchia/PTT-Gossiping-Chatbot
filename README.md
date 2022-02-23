@@ -1,9 +1,13 @@
 # PTT-Gossiping-Chatbot
 A Chat bot that use training data from PTT Gossiping
+:::info
+課堂上的專題，自己做來玩的小玩具，沒有商業利用，有緣人想看我醜醜的code就拿去用吧!
+:::
 ## Dataset
-2021 5月份 PTT-gossiping版上的所有問卦文章
+2021 5月份 PTT-gossiping版上的問卦文章
 ## Data Preprocessing
 * 有效文章: 有至少1則推文、回應、噓文且標題為問卦的文章
+* 推文: 最多每篇文章只取前100推文
 * 將文章及其推文整理成QA型態 -> 文章標題為問題，取最佳推文為回答
   * 取最佳推文方法
     1. 統計該文章下每一則推文出現的詞
@@ -27,7 +31,7 @@ A Chat bot that use training data from PTT Gossiping
 ![Chatbot_arch](https://user-images.githubusercontent.com/59002617/155270992-9f70092e-021a-4061-b861-cefa35093082.png)
 * Character-based
 ![Chatbot_arch_char](https://user-images.githubusercontent.com/59002617/155271004-d1bfb20d-df8d-45e0-a777-f3d19e1a6ff4.png)
-## Implement result
+## Implementation result
 * Word-based
  
 ![Word_based ex1](https://user-images.githubusercontent.com/59002617/155271277-72b4e6e9-759d-42e6-86c3-2a1fe1d9c019.png)
@@ -39,6 +43,10 @@ A Chat bot that use training data from PTT Gossiping
  
 ![train_char_example2](https://user-images.githubusercontent.com/59002617/155271398-9e2cbe09-2fee-4d08-bd8f-55e03d540610.jpg)
 
-  
+## Future work
+* 改善取最佳推文的方法
+* 資加有效資料量(現在只有用1個月)
+* parameter fine-tune
+* Architecture: BERT
   
   
